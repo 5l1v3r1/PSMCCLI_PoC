@@ -1,4 +1,3 @@
-#
 # PSMCCLI_PoC by https://twitter.com/ju256_
 # https://github.com/hellman/fixenv
 # python exploit.py && ./r.sh /usr/local/bin/PSMCCLI $(cat exp)
